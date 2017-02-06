@@ -10,6 +10,12 @@ RESTful API contain 2 collections:
 
 All data store in MySQL (Use driver [sequelizejs](http://docs.sequelizejs.com/en/v3/))
 
+### Start tests
+
+> MySQL must be running and contain "test" schema
+
+    npm test
+
 ### Start in dev mode
 
     npm run debug
