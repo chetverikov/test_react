@@ -1,0 +1,27 @@
+{
+  "name": "restocat-project",
+  "version": "0.0.0",
+  "description": "Empty project based on Restocat",
+  "main": "./server.js",
+  "author": "Restocat",
+  "license": "MIT",
+  "dependencies": {
+    "ava": "^0.18.0",
+    "body-parser": "^1.15.1",
+    "mysql": "^2.13.0",
+    "restocat": "^2.2.1",
+    "restocat-logger": "^2.0.0",
+    "sequelize": "^3.30.1"
+  },
+  "engines": {
+    "node": ">=6"
+  },
+  "scripts": {
+    "start": "npm run release",
+    "release": "node ./server.js release",
+    "debug": "node ./server.js"
+  },
+  "devDependencies": {
+    "supertest": "^3.0.0"
+  }
+}
